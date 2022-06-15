@@ -10454,14 +10454,14 @@ ul {
   list-style: none;
 }
 
-main .comics-list {
+main#comics .comics-list {
   background-color: #1C1C1C;
 }
-main .comics-list .container {
+main#comics .comics-list .container {
   max-width: 75%;
   margin: 0 auto;
 }
-main .comics-list .container .row {
+main#comics .comics-list .container .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10469,14 +10469,14 @@ main .comics-list .container .row {
   gap: 20px;
   padding: 50px 0;
 }
-main .comics-list .container .row .card {
+main#comics .comics-list .container .row .card {
   width: calc(16.6666666667% - 16.6666666667px);
 }
-main .comics-list .container .row .card .image {
+main#comics .comics-list .container .row .card .image {
   width: 100%;
   aspect-ratio: 1;
 }
-main .comics-list .container .row .card .image img {
+main#comics .comics-list .container .row .card .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -10484,15 +10484,15 @@ main .comics-list .container .row .card .image img {
   -o-object-position: top center;
      object-position: top center;
 }
-main .comics-list .container .row .card .title {
+main#comics .comics-list .container .row .card .title {
   margin-top: 20px;
   text-transform: uppercase;
   color: white;
 }
-main .comics-list .main-footer {
+main#comics .main-footer {
   background-color: #0282F9;
 }
-main .comics-list .main-footer .container {
+main#comics .main-footer .container {
   max-width: 75%;
   margin: 0 auto;
   display: flex;
@@ -10500,7 +10500,7 @@ main .comics-list .main-footer .container {
   justify-content: center;
   align-items: center;
 }
-main .comics-list .main-footer .container .box {
+main#comics .main-footer .container .box {
   text-transform: uppercase;
   color: white;
   width: 20%;
@@ -10510,13 +10510,13 @@ main .comics-list .main-footer .container .box {
   align-items: center;
   gap: 10px;
 }
-main .comics-list .main-footer .container .box .image {
+main#comics .main-footer .container .box .image {
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-main .comics-list .main-footer .container .box .image img {
+main#comics .main-footer .container .box .image img {
   height: 30%;
 }
