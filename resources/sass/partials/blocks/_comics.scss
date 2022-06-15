@@ -55,6 +55,28 @@ main#comics{
         }
     }
 
+
+    .detail{
+        padding: 50px 0;
+        background-color: lightblue;
+        .container{
+            @include container;
+            h1{
+    
+                text-align: center;
+            }
+    
+            .image{
+                padding: 70px 0;
+                text-align: center;
+            }
+            .series, .description, .price, .sale-date{
+                margin-top: 20px;
+            }
+        }
+    }
+
 } 
+
 
 

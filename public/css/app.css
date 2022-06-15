@@ -10520,3 +10520,21 @@ main#comics .main-footer .container .box .image {
 main#comics .main-footer .container .box .image img {
   height: 30%;
 }
+main#comics .detail {
+  padding: 50px 0;
+  background-color: lightblue;
+}
+main#comics .detail .container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+main#comics .detail .container h1 {
+  text-align: center;
+}
+main#comics .detail .container .image {
+  padding: 70px 0;
+  text-align: center;
+}
+main#comics .detail .container .series, main#comics .detail .container .description, main#comics .detail .container .price, main#comics .detail .container .sale-date {
+  margin-top: 20px;
+}
