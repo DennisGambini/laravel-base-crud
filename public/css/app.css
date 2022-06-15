@@ -10470,7 +10470,12 @@ main#comics .comics-list .container .row {
   padding: 50px 0;
 }
 main#comics .comics-list .container .row .card {
+  border: 2px solid transparent;
+  transition: 0.4s;
   width: calc(16.6666666667% - 16.6666666667px);
+}
+main#comics .comics-list .container .row .card:hover {
+  border: 2px solid white;
 }
 main#comics .comics-list .container .row .card .image {
   width: 100%;

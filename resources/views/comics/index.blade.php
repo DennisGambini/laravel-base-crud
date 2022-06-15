@@ -14,12 +14,12 @@
             <div class="row">
                 
                 @foreach($comics as $comic)
-                <div class="card">
+                <a class="card" href="{{route('comics.show', $comic->id)}}">
                     <div class="image">
                         <img src="{{$comic->thumb}}" alt="immagine di {{$comic->title}}">
                     </div>
                     <div class="title">{{$comic->title}}</div>
-                </div>
+                </a>
                 @endforeach
             </div>
 

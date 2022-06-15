@@ -12,6 +12,11 @@ main#comics{
                 gap: 20px;
                 padding: 50px 0;
                 .card{
+                    border: 2px solid transparent;
+                    transition: 0.4s;
+                    &:hover{
+                        border: 2px solid white;
+                    }
                     width: calc((100% / 6) - ((20px * 5) / 6));
                     .image{
                         width: 100%;
