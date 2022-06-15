@@ -9,7 +9,13 @@
 </head>
 <body>
     @include('partials.header')
-    @yield('mainContent')
+    
+    <main id="comics">
+        @yield('mainContent')
+        
+        @yield('mainFooter')
+    </main>
+    
     @include('partials.footer')
 </body>
 </html>

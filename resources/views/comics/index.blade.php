@@ -2,10 +2,13 @@
 
 @section('pageTitle', 'DC Comics')
 
+
+
+
+
 @section('mainContent')
 
 
-<main id="comics">
     <section class="comics-list">
         <div class="container">
             <div class="row">
@@ -23,6 +26,12 @@
 
         </div>
     </section>
+
+@endsection
+
+
+@section('mainFooter')
+
     <section class="main-footer">
         <div class="container">
             <div class="box">
@@ -57,7 +66,8 @@
             </div>
         </div>
     </section>
-</main>
-
 
 @endsection
+
+
+
