@@ -1,0 +1,53 @@
+@import "../general";
+
+main .comics-list{
+    background-color: $black-bg;
+    .container{
+        @include container;
+        .row{
+            @include flex-row-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 0;
+            .card{
+                width: calc((100% / 6) - ((20px * 5) / 6));
+                .image{
+                    width: 100%;
+                    aspect-ratio: 1;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: top center;
+                    }
+                }
+                .title{
+                    margin-top: 20px;
+                    text-transform: uppercase;
+                    color: $white-text;
+                }
+            }
+        }
+    }
+    .main-footer{
+        background-color: $blue-bg;
+        .container{
+            @include container;
+            @include flex-row-center-center;
+            .box{
+                text-transform: uppercase;
+                color: $white-text;
+                width: calc(100% / 5);
+                @include flex-row-center-center;
+                gap: 10px;
+                .image{
+                    height: 100px;
+                    @include flex-row-center-center;
+                    img{
+                        height: 30%;
+                    }
+                }
+            }
+        }
+    }
+}

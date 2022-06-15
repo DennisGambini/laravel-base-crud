@@ -9,7 +9,6 @@
 </head>
 <body>
     @include('partials.header')
-    @include('partials.jumbo')
     @yield('mainContent')
     @include('partials.footer')
 </body>
