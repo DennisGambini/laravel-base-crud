@@ -1,0 +1,33 @@
+@import "../general";
+
+header{
+    .header-top{
+        background-color: $blue-bg;
+        color: $white-text;
+        .container{
+            @include container;
+            @include flex-row-end-center;
+            gap: 40px;
+            padding: 5px;
+            text-transform: uppercase;
+        }
+    }
+    .header-bottom{
+        .container{
+            @include container;
+            @include flex-row-between-center;
+            nav{
+                ul{
+                    @include flex-row-between-center;
+                    text-transform: uppercase;
+                    gap: 20px;
+                }
+            }
+            input::placeholder{
+                float: right;
+                margin-right: 10px;
+            }
+        }
+    }
+    
+}

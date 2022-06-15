@@ -1,0 +1,58 @@
+@import "../general";
+
+footer{
+    
+    .footer-center{
+        background-image: url('../img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        .container{
+            @include container;
+            .liste{
+                height: 400px;
+                padding: 70px 0;
+                width: 50%;
+                @include flex-col-start-start;
+                gap: 50px;
+                flex-wrap: wrap;
+                ul{
+                    li.head{
+                        color: $white-text;
+                    }
+                    li.normal{
+                        a{
+                            color: $gray-text;
+                        }
+                    }
+                }
+
+            }
+        }
+        .copyright{
+            color: $gray-text;
+            a{
+                color: $blue-bg;
+            }
+        }
+    }
+    .footer-bottom{
+        background-color: $gray-bg;
+        padding: 30px 0;
+        .container{
+            @include container;
+            @include flex-row-between-center;
+            .icons{
+                @include flex-row-between-center;
+                gap: 30px;
+                span{
+                    font-size: $lg-text;
+                    color: $blue-bg;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    
+                }
+            }
+        }
+    }
+}

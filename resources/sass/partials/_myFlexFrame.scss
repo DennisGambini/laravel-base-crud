@@ -1,0 +1,282 @@
+@mixin flex {
+    display: flex;
+}
+@mixin flex-row {
+    @include flex;
+    flex-direction: row;
+}
+@mixin flex-col {
+    @include flex;
+    flex-direction: column;
+}
+
+                                // ROW
+@mixin flex-row-start {
+    @include flex-row;
+    justify-content: flex-start;
+}
+@mixin flex-row-center {
+    @include flex-row;
+    justify-content: center;
+}
+@mixin flex-row-end {
+    @include flex-row;
+    justify-content: flex-end;
+}
+@mixin flex-row-around {
+    @include flex-row;
+    justify-content: space-around;
+}
+@mixin flex-row-between {
+    @include flex-row;
+    justify-content: space-between;
+}
+@mixin flex-row-even {
+    @include flex-row;
+    justify-content: space-evenly;
+}
+
+
+//// row-start
+@mixin flex-row-start-start {
+    @include flex-row-start;
+    align-items: flex-start
+}
+@mixin flex-row-start-end {
+    @include flex-row-start;
+    align-items: flex-end
+}
+@mixin flex-row-start-center {
+    @include flex-row-start;
+    align-items: center
+}
+@mixin flex-row-start-stretch {
+    @include flex-row-start;
+    align-items: stretch
+}
+
+//// row-center
+@mixin flex-row-center-start {
+    @include flex-row-center;
+    align-items: flex-start
+}
+@mixin flex-row-center-end {
+    @include flex-row-center;
+    align-items: flex-end
+}
+@mixin flex-row-center-center {
+    @include flex-row-center;
+    align-items: center
+}
+@mixin flex-row-center-stretch {
+    @include flex-row-center;
+    align-items: stretch
+}
+
+//// row-end
+@mixin flex-row-end-start {
+    @include flex-row-end;
+    align-items: flex-start
+}
+@mixin flex-row-end-end {
+    @include flex-row-end;
+    align-items: flex-end
+}
+@mixin flex-row-end-center {
+    @include flex-row-end;
+    align-items: center
+}
+@mixin flex-row-end-stretch {
+    @include flex-row-end;
+    align-items: stretch
+}
+
+//// row-around
+@mixin flex-row-around-start {
+    @include flex-row-around;
+    align-items: flex-start
+}
+@mixin flex-row-around-end {
+    @include flex-row-around;
+    align-items: flex-end
+}
+@mixin flex-row-around-center {
+    @include flex-row-around;
+    align-items: center
+}
+@mixin flex-row-around-stretch {
+    @include flex-row-around;
+    align-items: stretch
+}
+
+//// row-between
+@mixin flex-row-between-start {
+    @include flex-row-between;
+    align-items: flex-start
+}
+@mixin flex-row-between-end {
+    @include flex-row-between;
+    align-items: flex-end
+}
+@mixin flex-row-between-center {
+    @include flex-row-between;
+    align-items: center
+}
+@mixin flex-row-between-stretch {
+    @include flex-row-between;
+    align-items: stretch
+}
+
+//// row-even
+@mixin flex-row-even-start {
+    @include flex-row-even;
+    align-items: flex-start
+}
+@mixin flex-row-even-end {
+    @include flex-row-even;
+    align-items: flex-end
+}
+@mixin flex-row-even-center {
+    @include flex-row-even;
+    align-items: center
+}
+@mixin flex-row-even-stretch {
+    @include flex-row-even;
+    align-items: stretch
+}
+
+
+                                // COLUMN
+@mixin flex-col-start {
+    @include flex-col;
+    justify-content: flex-start;
+}
+@mixin flex-col-center {
+    @include flex-col;
+    justify-content: center;
+}
+@mixin flex-col-end {
+    @include flex-col;
+    justify-content: flex-end;
+}
+@mixin flex-col-around {
+    @include flex-col;
+    justify-content: space-around;
+}
+@mixin flex-col-between {
+    @include flex-col;
+    justify-content: space-between;
+}
+@mixin flex-col-even {
+    @include flex-col;
+    justify-content: space-evenly;
+}
+
+
+//// col-start
+@mixin flex-col-start-start {
+    @include flex-col-start;
+    align-items: flex-start
+}
+@mixin flex-col-start-end {
+    @include flex-col-start;
+    align-items: flex-end
+}
+@mixin flex-col-start-center {
+    @include flex-col-start;
+    align-items: center
+}
+@mixin flex-col-start-stretch {
+    @include flex-col-start;
+    align-items: stretch
+}
+
+//// col-center
+@mixin flex-col-center-start {
+    @include flex-col-center;
+    align-items: flex-start
+}
+@mixin flex-col-center-end {
+    @include flex-col-center;
+    align-items: flex-end
+}
+@mixin flex-col-center-center {
+    @include flex-col-center;
+    align-items: center
+}
+@mixin flex-col-center-stretch {
+    @include flex-col-center;
+    align-items: stretch
+}
+
+//// col-end
+@mixin flex-col-end-start {
+    @include flex-col-end;
+    align-items: flex-start
+}
+@mixin flex-col-end-end {
+    @include flex-col-end;
+    align-items: flex-end
+}
+@mixin flex-col-end-center {
+    @include flex-col-end;
+    align-items: center
+}
+@mixin flex-col-end-stretch {
+    @include flex-col-end;
+    align-items: stretch
+}
+
+//// col-around
+@mixin flex-col-around-start {
+    @include flex-col-around;
+    align-items: flex-start
+}
+@mixin flex-col-around-end {
+    @include flex-col-around;
+    align-items: flex-end
+}
+@mixin flex-col-around-center {
+    @include flex-col-around;
+    align-items: center
+}
+@mixin flex-col-around-stretch {
+    @include flex-col-around;
+    align-items: stretch
+}
+
+//// col-between
+@mixin flex-col-between-start {
+    @include flex-col-between;
+    align-items: flex-start
+}
+@mixin flex-col-between-end {
+    @include flex-col-between;
+    align-items: flex-end
+}
+@mixin flex-col-between-center {
+    @include flex-col-between;
+    align-items: center
+}
+@mixin flex-col-between-stretch {
+    @include flex-col-between;
+    align-items: stretch
+}
+
+//// col-even
+@mixin flex-col-even-start {
+    @include flex-col-even;
+    align-items: flex-start
+}
+@mixin flex-col-even-end {
+    @include flex-col-even;
+    align-items: flex-end
+}
+@mixin flex-col-even-center {
+    @include flex-col-even;
+    align-items: center
+}
+@mixin flex-col-even-stretch {
+    @include flex-col-even;
+    align-items: stretch
+}
