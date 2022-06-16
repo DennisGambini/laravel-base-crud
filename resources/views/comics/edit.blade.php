@@ -1,28 +1,42 @@
 @extends('layouts.comics_layout')
 
-@section('pageTitle', 'DC Comics '.$comic->title)
+@section('pageTitle', 'Modify Comic '.$comic->title)
 
 @section('mainContent')
 
-<div class="detail">
+<div class="edit-page">
     <div class="container">
 
-        <h1>{{$comic->title}}</h1>
+        <h1>Add New Comics</h1>
+o
+        <form action="{{route('comics.update', $comic->id)}}" method="POST">
+            @csrf
+            @method('PUT')
 
-        <div class="image">
-            <img src="{{$comic->thumb}}" alt="immagine di {{$comic->title}}">
-        </div>
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="insert title" value="{{$comic->title}}">
 
-        <h3 class="series">Serie {{$comic->series}}</h3>
+            <label for="description">Description</label>
+            <input type="text" name="description" name="description" placeholder="insert description" value="{{$comic->description}}">
 
-        <div class="description">{{$comic->description}}</div>
+            <label for="thumb">Image Url</label>
+            <input type="text" name="thumb" id="thumb" name="thumb" placeholder="insert image url" value="{{$comic->thumb}}">
 
-        <div class="price">
-            <span style="font-size: 1.2em; font-weight: 600;">Price : </span>
-            {{$comic->price}} &dollar;
-        </div>
+            <label for="price">Price with decimals</label>
+            <input type="number" name="price" id="price" name="price" placeholder="insert price (ex: 12.00)" min="1" max="1000" value="{{$comic->price}}">
 
-        <div style="float: right" class="sale-date">Sale On {{$comic->sale_date}}</div>
+            <label for="series">Series</label>
+            <input type="text" name="series" id="series" name="series" placeholder="insert series" value="{{$comic->series}}">
+
+            <label for="sale_date">First Sale Date</label>
+            <input type="date" name="sale_date" id="sale_date" name="sale_date" value="{{$comic->sale_date}}">
+
+            <label for="type">Series</label>
+            <input type="text" name="type" id="type" name="type" placeholder="insert series" value="{{$comic->type}}">
+
+            <button type="submit">Save</button>
+        
+        </form>
 
     </div>
 </div>
