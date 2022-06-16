@@ -11,11 +11,9 @@
 
         <form action="{{route('comics.store')}}" method="POST">
             @csrf
-            @method('POST')
 
             <label for="title">Title</label>
-            <input type="text" id="title" name
-            title placeholder="insert title">
+            <input type="text" id="title" name="title" placeholder="insert title">
 
             <label for="description">Description</label>
             <input type="text" name="description" name="description" placeholder="insert description">
