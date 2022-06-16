@@ -8,7 +8,7 @@
     <div class="container">
 
         <h1>Add New Comics</h1>
-o
+
         <form action="{{route('comics.update', $comic->id)}}" method="POST">
             @csrf
             @method('PUT')
@@ -31,7 +31,7 @@ o
             <label for="sale_date">First Sale Date</label>
             <input type="date" name="sale_date" id="sale_date" name="sale_date" value="{{$comic->sale_date}}">
 
-            <label for="type">Series</label>
+            <label for="type">Type</label>
             <input type="text" name="type" id="type" name="type" placeholder="insert series" value="{{$comic->type}}">
 
             <button type="submit">Save</button>

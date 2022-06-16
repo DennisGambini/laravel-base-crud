@@ -35,12 +35,13 @@
                         </div>
 
                         <div class="i-box">
-                            <form action="{{route('comics.destroy', $comic->id)}}"></form>
-                            @csrf
-                            @method('POST')
-                            <button type="submit">
-                                <i class="fa-solid fa-square-minus"></i>
-                            </button>
+                            <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit">
+                                    <i class="fa-solid fa-square-minus"></i>
+                                </button>
+                            </form>
                         </div>
 
                     </div>
