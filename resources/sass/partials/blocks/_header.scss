@@ -16,6 +16,12 @@ header{
         .container{
             @include container;
             @include flex-row-between-center;
+            padding: 15px 0;
+            .logo{
+                img{
+                    height: 50px;
+                }
+            }
             nav{
                 ul{
                     @include flex-row-between-center;

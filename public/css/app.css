@@ -10292,8 +10292,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10302,6 +10303,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10313,7 +10317,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
@@ -10339,8 +10343,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10349,6 +10354,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10360,7 +10368,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
@@ -10390,6 +10398,10 @@ header .header-bottom .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 0;
+}
+header .header-bottom .container .logo img {
+  height: 50px;
 }
 header .header-bottom .container nav ul {
   display: flex;
@@ -10430,8 +10442,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10440,6 +10453,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10451,7 +10467,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
@@ -10484,8 +10500,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10494,6 +10511,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10505,7 +10525,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
@@ -10590,8 +10610,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10600,6 +10621,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10611,7 +10635,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
@@ -10783,8 +10807,9 @@ ul {
   margin-top: 20px;
   align-self: center;
   border-radius: 5px;
-  background-color: orange;
+  background-color: rgb(255, 179, 0);
   border: none;
+  transition: 0.3s;
   margin: 25px 0;
 }
 .update-btn a {
@@ -10793,6 +10818,9 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+.update-btn:hover {
+  background-color: rgb(255, 115, 0);
 }
 
 .delete-btn {
@@ -10804,7 +10832,7 @@ ul {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.55;
   transition: 0.3s;
   margin: 25px 0;
 }
