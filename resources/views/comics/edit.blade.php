@@ -8,6 +8,13 @@
     <div class="container">
 
         <h1>Add New Comics</h1>
+        
+        <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+            @csrf
+            @method('DELETE')
+
+            <button type="submit" class="delete-btn">DELETE</button>
+        </form>
 
         <form action="{{route('comics.update', $comic->id)}}" method="POST">
             @csrf

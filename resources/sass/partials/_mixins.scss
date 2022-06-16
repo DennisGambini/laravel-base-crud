@@ -2,3 +2,37 @@
     max-width: 85%;
     margin: 0 auto;
 }
+
+
+@mixin update-btn {
+    margin-top: 20px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: $warning-bg;
+    border: none;
+    a{
+        padding: 6px 25px;
+        display: block;
+        text-decoration: none;
+        color: $white-text;
+        text-transform: uppercase;
+    }
+    margin: 25px 0;
+}
+
+@mixin delete-btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: $danger-bg;
+    padding: 6px 25px;
+    color: $white-text;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+    &:hover{
+        opacity: 1;
+    }
+    margin: 25px 0;
+}

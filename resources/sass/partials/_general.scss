@@ -13,3 +13,12 @@ a{
 ul{
     list-style: none;
 }
+
+
+.update-btn{
+    @include update-btn;
+}
+
+.delete-btn{
+    @include delete-btn;
+}

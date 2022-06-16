@@ -7,6 +7,17 @@
 <div class="detail">
     <div class="container">
 
+        <button class="update-btn">
+            <a href="{{route('comics.edit', $comic->id)}}">MODIFY</a>
+        </button>
+
+        <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+            @csrf
+            @method('DELETE')
+
+            <button type="submit" class="delete-btn">DELETE</button>
+        </form>
+
         <h1>{{$comic->title}}</h1>
 
         <div class="image">
