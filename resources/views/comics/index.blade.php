@@ -14,12 +14,35 @@
             <div class="row">
                 
                 @foreach($comics as $comic)
-                <a class="card" href="{{route('comics.show', $comic->id)}}">
+                <div class="card">
+                    
                     <div class="image">
                         <img src="{{$comic->thumb}}" alt="immagine di {{$comic->title}}">
                     </div>
+                    
                     <div class="title">{{$comic->title}}</div>
-                </a>
+                    
+                    <button>
+                        <a href="{{route('comics.show', $comic->id)}}">Go</a>
+                    </button>
+
+                    <div class="layover">
+
+                        <div class="i-box">
+                            <a href="{{route('comics.edit', $comic->id)}}">
+                                <i class="fa-solid fa-square-pen"></i>
+                            </a>
+                        </div>
+
+                        {{-- <div class="i-box">
+                            <a href="{{route('comics.destroy'), $dhdf}}">
+                                <i class="fa-solid fa-square-minus"></i>
+                            </a>
+                        </div> --}}
+
+                    </div>
+                    
+                </div>
                 @endforeach
             </div>
 

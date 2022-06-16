@@ -19,6 +19,11 @@ Route::get('/', function () {
 
 Route::resource('comics', 'ComicController');
 
+
+
+
+
+
 // rotte placeholders header
 Route::get('/characters', function () {
     return view('placeholders.characters');
@@ -26,6 +31,9 @@ Route::get('/characters', function () {
 Route::get('/movies', function () {
     return view('placeholders.movies');
 })->name('movies');
+Route::get('/tv', function () {
+    return view('placeholders.tv');
+})->name('tv');
 Route::get('/games', function () {
     return view('placeholders.games');
 })->name('games');

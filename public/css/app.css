@@ -10307,7 +10307,7 @@ header .header-top {
   color: white;
 }
 header .header-top .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -10318,7 +10318,7 @@ header .header-top .container {
   text-transform: uppercase;
 }
 header .header-bottom .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -10388,7 +10388,7 @@ footer .footer-center {
   background-position: center;
 }
 footer .footer-center .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
 }
 footer .footer-center .container .liste {
@@ -10419,7 +10419,7 @@ footer .footer-bottom {
   padding: 30px 0;
 }
 footer .footer-bottom .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -10458,7 +10458,7 @@ main#comics .comics-list {
   background-color: #1C1C1C;
 }
 main#comics .comics-list .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
 }
 main#comics .comics-list .container .row {
@@ -10467,18 +10467,30 @@ main#comics .comics-list .container .row {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  row-gap: 60px;
   padding: 50px 0;
 }
 main#comics .comics-list .container .row .card {
   border: 2px solid transparent;
   transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 8px;
   width: calc(16.6666666667% - 16.6666666667px);
+  position: relative;
 }
 main#comics .comics-list .container .row .card:hover {
   border: 2px solid white;
 }
+main#comics .comics-list .container .row .card:hover .layover {
+  opacity: 0.8;
+}
 main#comics .comics-list .container .row .card .image {
   width: 100%;
+  height: 200px;
   aspect-ratio: 1;
 }
 main#comics .comics-list .container .row .card .image img {
@@ -10494,11 +10506,55 @@ main#comics .comics-list .container .row .card .title {
   text-transform: uppercase;
   color: white;
 }
+main#comics .comics-list .container .row .card button {
+  margin-top: 20px;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #0282F9;
+}
+main#comics .comics-list .container .row .card button a {
+  padding: 6px 25px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+main#comics .comics-list .container .row .card .layover {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  opacity: 0;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+main#comics .comics-list .container .row .card .layover .i-box {
+  opacity: 0.8;
+  height: 26px;
+  width: 26px;
+  background-color: white;
+  position: relative;
+}
+main#comics .comics-list .container .row .card .layover .i-box:hover {
+  opacity: 1;
+}
+main#comics .comics-list .container .row .card .layover .i-box i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 36px;
+}
 main#comics .main-footer {
   background-color: #0282F9;
 }
 main#comics .main-footer .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -10530,7 +10586,7 @@ main#comics .detail {
   background-color: lightblue;
 }
 main#comics .detail .container {
-  max-width: 75%;
+  max-width: 85%;
   margin: 0 auto;
 }
 main#comics .detail .container h1 {
