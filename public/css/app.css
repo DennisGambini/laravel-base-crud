@@ -10739,6 +10739,23 @@ main#comics .comics-list .container .row .card .layover .i-box i {
   color: black;
   font-size: 36px;
 }
+main#comics .comics-list .container .row .insert-card a {
+  display: block;
+  color: white;
+  font-size: 2em;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+main#comics .comics-list .container .row .insert-card a .text {
+  text-transform: uppercase;
+  text-align: center;
+}
 main#comics .main-footer {
   background-color: #0282F9;
 }

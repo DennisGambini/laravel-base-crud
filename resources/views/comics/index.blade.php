@@ -48,6 +48,15 @@
                     
                 </div>
                 @endforeach
+
+                <div class="card insert-card">
+                    <a href="{{route('comics.create')}}">
+                        <div class="text">Insert New Comic</div>
+                        <div class="cirle">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
 
 
