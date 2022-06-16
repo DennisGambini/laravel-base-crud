@@ -10599,3 +10599,28 @@ main#comics .detail .container .image {
 main#comics .detail .container .series, main#comics .detail .container .description, main#comics .detail .container .price, main#comics .detail .container .sale-date {
   margin-top: 20px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.create-page {
+  padding: 50px 0;
+}
+.create-page .container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.create-page .container h1 {
+  text-align: center;
+}

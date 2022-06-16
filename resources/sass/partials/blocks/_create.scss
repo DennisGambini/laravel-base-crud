@@ -1,0 +1,14 @@
+@import "../general";
+
+.create-page{
+    padding: 50px 0;
+    .container{
+        @include container;
+
+        h1{
+            text-align: center;
+        }
+
+    }
+
+}

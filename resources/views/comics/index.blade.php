@@ -34,11 +34,14 @@
                             </a>
                         </div>
 
-                        {{-- <div class="i-box">
-                            <a href="{{route('comics.destroy'), $dhdf}}">
+                        <div class="i-box">
+                            <form action="{{route('comics.destroy', $comic->id)}}"></form>
+                            @csrf
+                            @method('POST')
+                            <button type="submit">
                                 <i class="fa-solid fa-square-minus"></i>
-                            </a>
-                        </div> --}}
+                            </button>
+                        </div>
 
                     </div>
                     
