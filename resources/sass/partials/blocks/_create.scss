@@ -1,12 +1,47 @@
 @import "../general";
 
-.create-page{
+.create-page, .edit-page{
     padding: 50px 0;
     .container{
         @include container;
 
         h1{
             text-align: center;
+        }
+        form{
+            @include flex-col-between-start;
+            flex-wrap: nowrap;
+            gap: 50px;
+            .input-box{
+                width: 100%;
+                @include flex-col-between-start;
+                gap: 20px;
+                label{
+                    text-transform: uppercase;
+                    color: $blue-bg;
+                }
+                input, textarea{
+                    width: 100%;
+                    padding: 10px;
+                    border: 2px solid $blue-bg;
+                    border-radius: 10px;
+                }
+                button.save{
+                    margin-top: 20px;
+                    border-radius: 5px;
+                    background-color: $blue-bg;
+                    padding: 6px 25px;
+                    color: $white-text;
+                    text-transform: uppercase;
+                    border: none;
+                    cursor: pointer;
+                    opacity: 0.7;
+                    transition: 0.3s;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
         }
 
     }
