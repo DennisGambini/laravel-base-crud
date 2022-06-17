@@ -10325,6 +10325,23 @@ ul {
   opacity: 1;
 }
 
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10374,6 +10391,23 @@ ul {
 }
 .delete-btn:hover {
   opacity: 1;
+}
+
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
 }
 
 header .header-top {
@@ -10475,6 +10509,23 @@ ul {
   opacity: 1;
 }
 
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
+}
+
 .jumbotron {
   height: 340px;
   background-image: url("../img/jumbotron.jpg");
@@ -10531,6 +10582,23 @@ ul {
 }
 .delete-btn:hover {
   opacity: 1;
+}
+
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
 }
 
 footer .footer-center {
@@ -10641,6 +10709,23 @@ ul {
 }
 .delete-btn:hover {
   opacity: 1;
+}
+
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
 }
 
 main#comics .comics-list {
@@ -10855,6 +10940,23 @@ ul {
 }
 .delete-btn:hover {
   opacity: 1;
+}
+
+.input-error {
+  border: 1px solid rgb(231, 12, 12);
+  color: rgb(231, 12, 12);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input.input-error {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 1px solid red !important;
+}
+
+input.input-error:focus {
+  background-color: white;
+  border: none;
 }
 
 .create-page, .edit-page {

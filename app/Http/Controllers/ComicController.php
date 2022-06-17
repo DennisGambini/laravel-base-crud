@@ -7,6 +7,15 @@ use App\Comic;
 
 class ComicController extends Controller
 {
+    protected $myValidationRules = [
+        'title' => 'required|max:100',
+        'description' => 'required|max:1000',
+        'thumb' => 'required',
+        'price' => 'required|numeric|max:1000',
+        'series' => 'required|max:100',
+        'sale_date' => 'required|date',
+        'type' => 'required'
+    ];
     /**
      * Display a listing of the resource.
      *
@@ -36,6 +45,7 @@ class ComicController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate($this->myValidationRules);
         // echo 'dio porco';
         $data = $request->all();
         // dump($data);

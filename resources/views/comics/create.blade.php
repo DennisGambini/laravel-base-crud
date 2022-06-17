@@ -14,7 +14,11 @@
 
             <div class="input-box">
                 <label for="title">Title</label>
-                <input type="text" id="title" name="title" placeholder="insert title">
+                <input type="text" id="title" name="title" placeholder="insert title" class="@error('title') input-error @enderror">
+
+                @error('title')
+                    <div class="input-error">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="input-box">
