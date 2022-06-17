@@ -10332,14 +10332,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 * {
@@ -10400,14 +10423,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 header .header-top {
@@ -10516,14 +10562,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 .jumbotron {
@@ -10591,14 +10660,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 footer .footer-center {
@@ -10718,14 +10810,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 main#comics .comics-list {
@@ -10949,14 +11064,37 @@ ul {
   border-radius: 8px;
 }
 
-input.input-error {
+input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
   background-color: rgba(231, 12, 12, 0.5);
-  border: 1px solid red !important;
+  border: 2px solid red !important;
 }
 
-input.input-error:focus {
+input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
+  background-color: rgba(231, 12, 12, 0.5);
+  border: 2px solid red !important;
+}
+
+input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
   background-color: white;
-  border: none;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:-ms-input-placeholder), textarea.input-error:not(:-ms-input-placeholder) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
+}
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown) {
+  background-color: white;
+  border: 2px solid #0282F9;
+  color: black;
 }
 
 .create-page, .edit-page {

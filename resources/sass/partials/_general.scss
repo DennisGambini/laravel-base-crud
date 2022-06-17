@@ -31,11 +31,13 @@ ul{
     padding: 10px;
     border-radius: 8px;
 }
-input.input-error{
+input.input-error:placeholder-shown, textarea.input-error:placeholder-shown{
     background-color:rgba($color: $danger-color, $alpha: 0.5);
-    border: 1px solid red !important;
+    border: 2px solid red !important;
 }
-input.input-error:focus{
+
+input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown){
     background-color: $white-text;
-    border: none;
+    border: 2px solid $blue-bg;
+    color: black;
 }
