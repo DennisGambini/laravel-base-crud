@@ -32,8 +32,8 @@ ul{
     border-radius: 8px;
 }
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown{
-    background-color:rgba($color: $danger-color, $alpha: 0.5);
-    border: 2px solid red !important;
+    background-color:rgba($color: $danger-color, $alpha: 0.2);
+    border: 2px solid $danger-color !important;
 }
 
 input.input-error:not(:placeholder-shown), textarea.input-error:not(:placeholder-shown){

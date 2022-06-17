@@ -10333,18 +10333,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
@@ -10424,18 +10424,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
@@ -10563,18 +10563,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
@@ -10661,18 +10661,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
@@ -10811,18 +10811,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
@@ -11065,18 +11065,18 @@ ul {
 }
 
 input.input-error:-moz-placeholder-shown, textarea.input-error:-moz-placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:placeholder-shown, textarea.input-error:placeholder-shown {
-  background-color: rgba(231, 12, 12, 0.5);
-  border: 2px solid red !important;
+  background-color: rgba(231, 12, 12, 0.2);
+  border: 2px solid rgb(231, 12, 12) !important;
 }
 
 input.input-error:not(:-moz-placeholder-shown), textarea.input-error:not(:-moz-placeholder-shown) {
